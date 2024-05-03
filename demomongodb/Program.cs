@@ -7,7 +7,7 @@ class Program
     static void Main(string[] args)
     {
         // Connection string and database name
-        string connectionString = "mongodb+srv://mrinalbanerjee3:ytDxpieTM1tyaA0V@demomongo.ou1s9cd.mongodb.net/";
+        string connectionString = "";
         string dbName = "product";
         // Create a MongoDB client
         MongoClient client = new MongoClient(connectionString);
